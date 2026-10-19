@@ -15,7 +15,7 @@ public class TimetableController {
 
     @GetMapping("/divisions") public List<Division> divisions(){return service.divisions();}
     @GetMapping("/teachers") public List<Teacher> teachers(){return service.teachers();}
-    @GetMapping("/rooms") public List<Room> rooms(){return service.rooms();git init}
+    @GetMapping("/rooms") public List<Room> rooms(){return service.rooms(); }
     @GetMapping("/subjects") public List<Subject> subjects(){return service.subjects();}
     @GetMapping("/allocations") public List<CourseAllocation> allocations(){return service.allocations();}
     @GetMapping("/timetable") public List<TimetableResponse> timetable(){return service.timetable();}
